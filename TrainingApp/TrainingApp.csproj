@@ -190,7 +190,6 @@
     <Content Include="Content\_rootVariables.scss" />
     <Content Include="Content\root.scss" />
     <Content Include="Content\_rootFunctions.scss" />
-    <None Include=".bin\node.cmd" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
