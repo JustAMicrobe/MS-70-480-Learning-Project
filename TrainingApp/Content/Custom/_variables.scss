@@ -1,0 +1,41 @@
+﻿// Colors
+// using naming conventions of bootstrap
+$brand-secondary: $secondary-root-color;
+
+
+// buttons
+$btn-secondary-color:              #fff !default;
+$btn-secondary-bg:                 $brand-secondary !default;
+$btn-secondary-border:             darken($btn-secondary-bg, 5%) !default;
+
+
+// progress-bar
+//** primary progress bar color
+$progress-bar-primary-bg:     $brand-primary   !default;
+//** secondary progress bar color
+$progress-bar-secondary-bg:   $brand-secondary !default;
+
+//=== primary navbar
+// Reset primary navbar basics
+$navbar-primary-color:                      set-color-by-background-color($brand-primary) !default; //lighten($gray-light, 15%) !default;
+$navbar-primary-bg:                         $brand-primary !default;
+$navbar-primary-border:                     darken($navbar-primary-bg, 10%) !default;
+
+// primary navbar links
+$navbar-primary-link-color:                 $navbar-primary-color !default; //lighten($gray-light, 15%) !default;
+$navbar-primary-link-hover-color:           lighten($navbar-primary-color, 90%) !default;
+$navbar-primary-link-hover-bg:              darken($navbar-primary-bg, 10%) !default;
+$navbar-primary-link-active-color:          $navbar-primary-link-hover-color !default;
+$navbar-primary-link-active-bg:             darken($navbar-primary-bg, 10%) !default;
+$navbar-primary-link-disabled-color:        lighten($navbar-primary-color, 40%) !default;
+$navbar-primary-link-disabled-bg:           darken($navbar-primary-bg, 40%)  !default;
+
+// primary navbar brand label
+$navbar-primary-brand-color:                $navbar-primary-link-color !default;
+$navbar-primary-brand-hover-color:          lighten($navbar-primary-color, 70%) !default;
+$navbar-primary-brand-hover-bg:             darken($navbar-primary-bg, 5%)  !default;
+
+// primary navbar toggle
+$navbar-primary-toggle-hover-bg:            #333 !default;
+$navbar-primary-toggle-icon-bar-bg:         #fff !default;
+$navbar-primary-toggle-border-color:        #333 !default;

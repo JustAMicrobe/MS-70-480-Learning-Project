@@ -1,0 +1,35 @@
+﻿// Background colors with color
+.bg-primary {
+  background-color: $brand-primary;
+  color: set-color-by-background-color($brand-primary)
+}
+.bg-secondary {
+  background-color: $brand-secondary;
+  color: set-color-by-background-color($brand-secondary)
+}
+
+.bg-success {
+  background-color: $brand-success;
+  color: set-color-by-background-color($brand-success)
+}
+
+.bg-info {
+  background-color: $brand-info;
+  color: set-color-by-background-color($brand-info)
+}
+
+.bg-warning {
+  background-color: $brand-warning;
+  color: set-color-by-background-color($brand-warning)
+}
+
+.bg-danger {
+  background-color: $brand-danger;
+  color: set-color-by-background-color($brand-danger)
+}
+
+// Tabulators
+.tab-xs {padding-left: 0.5em;}
+.tab-sm {padding-left: 1.0em;}
+.tab-md {padding-left: 1.5em;}
+.tab-lg {padding-left: 2.0em;}

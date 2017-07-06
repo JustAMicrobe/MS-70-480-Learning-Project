@@ -1,0 +1,4 @@
+﻿// Alternate buttons
+.btn-secondary {
+  @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
+}

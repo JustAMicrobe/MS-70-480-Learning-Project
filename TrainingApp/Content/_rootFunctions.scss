@@ -1,0 +1,16 @@
+﻿// Function to recalculate a value by a factor
+// Factor must be > 0
+// Options: factor > 1 = grow, factor < 1 = shrink
+@function size-by-factor-function($value, $factor){
+  @return $value * $factor
+}
+
+// Function to set a color white or black taking into account the lightness of the background-color
+// Options: any color value
+@function set-color-by-background-color($color){
+  @if (lightness($color) > 50) or (saturation($color) > 40 and lightness($color) > 40) {
+    @return #000000; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}

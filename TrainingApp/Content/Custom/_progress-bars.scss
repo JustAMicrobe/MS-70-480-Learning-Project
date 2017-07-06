@@ -1,0 +1,8 @@
+﻿// Variations
+// -------------------------
+.progress-bar-primary {
+  @include progress-bar-variant($progress-bar-primary-bg);
+}
+.progress-bar-secondary {
+  @include progress-bar-variant($progress-bar-secondary-bg);
+}

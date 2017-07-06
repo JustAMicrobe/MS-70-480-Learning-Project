@@ -1,0 +1,13 @@
+﻿// color values
+$primary-root-color:    hsl(0, 96%, 44%);
+$secondary-root-color:  hsl(0, 0%, 0%);
+$success-root-color:    hsl(124, 84%, 30%);
+$info-root-color:       hsl(59, 83%, 44%);
+$warning-root-color:    #f0ad4e;
+$danger-root-color:     #d9534f;
+
+
+// border radius
+$custom-border-radius-base:   0px;
+$custom-border-radius-large:  size-by-factor-function($custom-border-radius-base, 1.5) !default;
+$custom-border-radius-small:  size-by-factor-function($custom-border-radius-base, 0.75) !default;
