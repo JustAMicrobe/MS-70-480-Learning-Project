@@ -9,6 +9,7 @@
 <body>
 <!--Page Navigation-->
   <nav class="navbar navbar-primary navbar-fixed-top" data-portal-navbar="data-portal-navbar">
+    <!-- load view/navbar.html via Javascript-->
   </nav>
 <!--/Page Navigation-->
 
@@ -39,11 +40,5 @@
   <script type="text/javascript" src="Scripts/Custom/loadContent.js"></script>
   <script type="text/javascript" src="Scripts/Custom/scroll.js"></script>
   <script type="text/javascript" src="Scripts/Custom/navbar.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      loadContentData('/Views/Navbar.html', 'nav[data-portal-navbar]');
-      loadContentData('error/test.html', 'header', '#errorBox', '<strong><i class="fa fa-exclamation-triangle"></i>&nbsp;Achtung:</strong>&nbsp;Beim Laden ist ein Fehler aufgetreten.')
-    });
-  </script>
 </body>
 </html>
