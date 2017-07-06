@@ -17,6 +17,7 @@
 /// <reference path="Custom/scroll.js" />
 /// <reference path="Jquery/jquery-3.1.1.js" />
 /// <reference path="Jquery/jquery-3.1.1.slim.js" />
+/// <reference path="nodejstest/nodejstest.js" />
 /// <reference path="qunit.js" />
 /// <reference path="root.js" />
 /// <reference path="tests/navbartests.js" />

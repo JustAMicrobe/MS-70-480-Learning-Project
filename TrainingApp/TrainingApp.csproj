@@ -190,6 +190,7 @@
     <Content Include="Content\_rootVariables.scss" />
     <Content Include="Content\root.scss" />
     <Content Include="Content\_rootFunctions.scss" />
+    <None Include=".bin\node.cmd" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -222,6 +223,7 @@
     <Content Include="Scripts\Custom\loadContent.js" />
     <Content Include="Scripts\Custom\navbar.js" />
     <Content Include="Scripts\Custom\scroll.js" />
+    <Content Include="Scripts\NodeJSTest\NodeJsTest.js" />
     <Content Include="Scripts\root.js" />
     <Content Include="Scripts\Jquery\jquery-3.1.1.js" />
     <Content Include="Scripts\Jquery\jquery-3.1.1.min.js" />
